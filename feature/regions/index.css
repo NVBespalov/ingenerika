@@ -1,0 +1,27 @@
+.container {
+    max-width: 1344px;
+    min-width: 1024px;
+    margin: 0 auto;
+}
+
+.left-column {
+    width: 25%;
+    height: 700px;
+    float: left;
+    border: 2px solid black;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.right-column {
+    width: 75%;
+    height: 700px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 6px;
+    padding-right: 6px;
+}
