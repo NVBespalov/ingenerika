@@ -1,0 +1,31 @@
+li {
+	list-style-type: none;
+}
+
+.head-computers {
+	font-family: YS Text,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.head-components {
+	font-family: YS Text,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.head-periferals {
+	font-family: YS Text,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
