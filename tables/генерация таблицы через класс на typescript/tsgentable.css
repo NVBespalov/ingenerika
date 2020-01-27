@@ -1,0 +1,27 @@
+.buttons input{
+ border-radius: 20px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black ;
+	border-radius: 10px;
+}
+
+table>thead>tr>th {
+    text-align: center;
+    border: 2px solid black;
+	border-radius: 10px;
+	background-color: #4dffa6;
+}
+
+table>tbody>tr>td {
+    text-align: center;
+    border: 2px solid black;
+	border-radius: 10px;
+	background-color: #66ff66;
+}
+
+table {
+background-color: #ccf2ff;
+}
