@@ -67,17 +67,24 @@ class Table_from_obj {
       
           //функция для вывода на экран шапки таблицы
           (function table_head_obj():void{
-           let tab:Element | null = document.querySelector<HTMLInputElement>('.table');
-           tab.innerHTML = table_head_obj_f;
+           let $table = document.querySelector('.table');
+           if(!$table) {
+            $table = document.createElement('table');
+            document.appendChild($table);
+            }
+           $table.innerHTML = table_head_obj_f;
+
           }());
       
         //функция для создания тела таблицы
           function table_body_obj_1():string{
-              let body_str:string = '';
-              for (let k:number = 0; k < arr_nam.length; k++) {
-                  let body_cell:string = '';
-                  for (let key in arr_nam[k]){
-                      let cell:string = JSON.stringify(arr_nam[k][key]);
+              let body_str = '';
+              for (let k = 0; k < arr_nam.length; k++) {
+                  let body_cell = '';
+                  let key: 'age' | 'name' | 'sex';
+                  for (key in arr_nam[k]){
+                    let a = arr_nam[k][key];
+                      let cell = JSON.stringify();
                       body_cell += `<td>${cell}</td>`
                   }
                   body_str += `<tr>
